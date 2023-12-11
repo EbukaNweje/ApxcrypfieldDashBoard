@@ -108,7 +108,7 @@ const Dashboard = () => {
 
       const handleLogOut = () =>{
           localStorage.removeItem("UserId");
-        window.location.href = "https://apxcrypfield.vercel.app/"
+        window.location.href = "https://accountapxcrypfield.vercel.app/"
       }
       const handleAdmin = () =>{
         nav(`UserUpdate`)
