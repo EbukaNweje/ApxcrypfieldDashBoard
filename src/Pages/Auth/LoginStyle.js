@@ -106,7 +106,7 @@ export const Input = styled.input`
     padding: 15px;
     background: transparent;
     width: 100%;
-    color: #fff;
+    color: #000;
     outline-width: 0.2px;
     margin-bottom: 5%;
 
