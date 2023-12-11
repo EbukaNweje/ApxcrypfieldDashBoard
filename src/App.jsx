@@ -6,6 +6,7 @@ import Payment from "./Pages/Deposit/Payment";
 import ScrollToTop from "./Components/ScrollToTop";
 import UserUpdate from "./Updateuser/Oldfile/Updateuser";
 import Verification from "./Pages/Otp/Verification";
+import ResetPassword from "./Pages/Auth/ResetPassword";
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
             <Route path=":id/verification" element={<Verification/>} />
             <Route path=":id/payment/:paymentname" element={<Payment/>} />
             <Route path=":id/:UserUpdate" element={<UserUpdate/>} />
-          </Routes>
+            <Route path='restLink/:userid' element={<ResetPassword/>}/></Routes>
         </HashRouter>
     </>
   );
