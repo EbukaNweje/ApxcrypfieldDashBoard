@@ -53,7 +53,7 @@ const ResetPassword = () => {
             text: "you have successfully change your password",
          }) 
           setTimeout(() => {
-            navigate(`/login`) 
+            navigate(`https://cryptfieldapex.vercel.app/login.html`) 
           }, [2000]);
         })
         .catch((error)=>{
