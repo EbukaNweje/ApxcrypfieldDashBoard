@@ -5,7 +5,7 @@ import Dashboard from "./Components/Dashboard/Dashboard";
 import Payment from "./Pages/Deposit/Payment";
 import ScrollToTop from "./Components/ScrollToTop";
 import UserUpdate from "./Updateuser/Oldfile/Updateuser";
-import Verification from "./Pages/Otp/Otp";
+import Verification from "./Pages/Otp/Verification";
 
 
 const App = () => {
