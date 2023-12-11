@@ -19,7 +19,7 @@ color: #D0464A;
 
 export const Container = styled.div`
 width: 100%;
-height: 85vh;
+height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;

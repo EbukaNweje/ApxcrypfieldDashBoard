@@ -27,7 +27,7 @@ const ResetPassword = () => {
     
     console.log(message);
   
-    const url = `https://newbestkryptfieldbackend.onrender.com/api/restLink/${userid}`
+    const url = `https://apxcrypfield-backend.vercel.app/api/restLink/${userid}`
   const Data = {password}
   console.log(url)
   console.log(Data)
